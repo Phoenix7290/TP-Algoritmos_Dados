@@ -15,7 +15,6 @@ metrics = HeapMetrics()
 
 
 def monitored_sift_down(arr, i, n):
-    """Sift-down instrumentado para contar comparações e trocas."""
     largest = i
     left = 2 * i + 1
     right = 2 * i + 2
@@ -37,7 +36,6 @@ def monitored_sift_down(arr, i, n):
 
 
 def monitored_build_heap(array):
-    """Build-heap instrumentado."""
     n = len(array)
     for i in range(n // 2 - 1, -1, -1):
         monitored_sift_down(array, i, n)
@@ -45,7 +43,6 @@ def monitored_build_heap(array):
 
 
 def monitored_extract_max(heap):
-    """Extract-max instrumentado."""
     if not heap:
         return None
     if len(heap) == 1:

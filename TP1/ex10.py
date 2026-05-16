@@ -2,12 +2,6 @@ from ex04 import extract_max
 from ex08 import build_heap
 
 def get_top_k(array, k):
-    """
-    Retorna os k maiores elementos do array, em ordem decrescente.
-    Não ordena o array completamente.
-    Complexidade: O(n) para build_heap + O(k log n) para k extrações = O(n + k log n).
-    Para k << n, isso é muito mais eficiente que ordenar tudo: O(n log n).
-    """
     heap = array[:]
     build_heap(heap)
 

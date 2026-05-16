@@ -1,12 +1,6 @@
 from binary_heap import BinaryHeap
 
 def contains(heap, valor):
-    """
-    Verifica se um valor existe na heap.
-    Algoritmo: busca linear — percorre todos os elementos do array.
-    Complexidade: O(n) — a heap não garante nenhuma ordenação entre subárvores
-    irmãs, impossibilitando podas como em BSTs.
-    """
     for item in heap:
         if item == valor:
             return True

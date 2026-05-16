@@ -1,10 +1,4 @@
 def is_valid_heap(array):
-    """
-    Verifica se um array representa uma Max-Heap válida.
-    Algoritmo: percorre apenas os nós internos (índices 0 até n//2 - 1),
-    pois os nós folha nunca têm filhos para violar a propriedade.
-    Complexidade: O(n)
-    """
     n = len(array)
     for i in range(n // 2):
         left = 2 * i + 1

@@ -1,10 +1,6 @@
 from binary_heap import BinaryHeap
 
 def sift_down(heap, index, size=None):
-    """
-    Desce o elemento da posição index até sua posição correta.
-    Parâmetro size permite operar sobre subarray (usado no heap sort parcial).
-    """
     if size is None:
         size = len(heap)
 
@@ -23,10 +19,6 @@ def sift_down(heap, index, size=None):
 
 
 def extract_max(heap):
-    """
-    Remove e retorna o maior elemento da heap (raiz).
-    Complexidade: O(log n)
-    """
     if not heap:
         return None
     if len(heap) == 1:

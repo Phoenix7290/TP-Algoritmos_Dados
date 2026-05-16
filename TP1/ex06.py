@@ -2,15 +2,6 @@ from binary_heap import BinaryHeap
 from ex04 import sift_down
 
 def delete(heap, valor):
-    """
-    Remove a primeira ocorrência de 'valor' da heap.
-    Estratégia:
-      1. Localiza o índice do valor.
-      2. Substitui pelo último elemento do array.
-      3. Restaura a propriedade de heap: sift-up se o novo valor é maior
-         que o pai, sift-down caso contrário.
-    Complexidade: O(n) para localizar + O(log n) para restaurar = O(n).
-    """
     try:
         idx = heap.index(valor)
     except ValueError:

@@ -1,5 +1,4 @@
 def sift_down(arr, i, n):
-    """Desce o elemento da posição i até sua posição correta."""
     largest = i
     left = 2 * i + 1
     right = 2 * i + 2
@@ -15,12 +14,6 @@ def sift_down(arr, i, n):
 
 
 def build_heap(array):
-    """
-    Constrói uma Max-Heap a partir de um array não ordenado.
-    Algoritmo de Floyd (bottom-up): começa do último nó interno
-    e aplica sift-down até a raiz.
-    Complexidade: O(n) — demonstrável pela soma geométrica das trocas por nível.
-    """
     n = len(array)
     for i in range(n // 2 - 1, -1, -1):
         sift_down(array, i, n)
