@@ -1,5 +1,6 @@
 # Algoritmos Avançados — Heaps
 
+Vídeo 1 - https://drive.google.com/file/d/15tN-tBYJ9wr5kpwmDAs-dDarXex57gnq/view?usp=sharing
 Coleção de exercícios e utilitários sobre heaps (Max-Heap binária). Os arquivos contêm implementações, exemplos e pequenos benchmarks para operações como insert, extract-max, build-heap e verificações.
 
 Status
@@ -50,3 +51,8 @@ Notas finais
 - README conciso e orientado a uso rápido. Posso também:
   - renomear ou adicionar módulos (`binary_heap.py`, `ex04.py`, `ex08.py`) para evitar links;
   - executar os exemplos aqui para verificar execução e corrigir import errors.
+
+
+# TP 2
+
+Vídeo - 
