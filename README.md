@@ -56,3 +56,6 @@ Notas finais
 # TP 2
 
 Vídeo - 
+
+Prints - 
+
