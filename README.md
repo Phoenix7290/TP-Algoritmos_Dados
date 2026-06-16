@@ -55,7 +55,9 @@ Notas finais
 
 # TP 2
 
-Vídeo - 
+Vídeo - https://youtu.be/1x5AOmyH1Kw
 
-Prints - 
+# TP 3
+
+Vídeo - https://youtu.be/xEX_L3q0Ks8
 
